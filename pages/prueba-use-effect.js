@@ -20,7 +20,7 @@ export default function Home() {
 
     useEffect(() => {
 
-        console.log("se ejecuta si hubo un cambio en count ")
+        console.log("se ejecuta si hubo un cambio en el state contador ")
     }, [contador]);
 
     return (
